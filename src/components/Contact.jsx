@@ -38,11 +38,10 @@ const Contact = () => {
           to_email: "adityarastogi1801@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_Public_key,
+        import.meta.env.VITE_Public_key
       )
       .then(() => {
         setLoading(false);
-        alert("Thank you. I will get back to you as soon as possible.");
         setForm(
           {
             email: "",
@@ -55,6 +54,7 @@ const Contact = () => {
             alert("Something went wrong. Please try again.");
           }
         );
+        alert("Thank you. I will get back to you as soon as possible.");
       });
   };
 
