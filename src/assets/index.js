@@ -28,8 +28,12 @@ import btp from "./company/btp.jpeg";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import Qkart from "./Qkart.png";
+import TicTacToe from "./tic-tac-toe.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import CV from "./CV.pdf"
 
 export {
   logo,
@@ -60,5 +64,8 @@ export {
   carrent,
   jobit,
   tripguide,
-  btp
+  btp,
+  Qkart,
+  TicTacToe,
+  CV
 };

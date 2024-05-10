@@ -23,7 +23,9 @@ import {
     jobit,
     tripguide,
     threejs,
-    btp
+    btp,
+    Qkart,
+    TicTacToe
   } from "../assets";
   
   export const navLinks = [
@@ -109,10 +111,10 @@ import {
       name: "figma",
       icon: figma,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
   ];
   
   const experiences = [
@@ -204,9 +206,9 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Qkart",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to search, browse, and add products to cart from various providers, providing a convenient and efficient shopping experience.",
       tags: [
         {
           name: "react",
@@ -217,33 +219,33 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "bootstrap",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: Qkart,
+      source_code_link: "https://github.com/AdityaRastogi18/Qkart-Frontend/tree/main/shubhrastogi14-ME_QKART_FRONTEND_V2-master",
     },
     {
-      name: "Job IT",
+      name: "Tic Tac Toe Game",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A web-based Tic Tac Toe game designed for simple, pass-and-play fun. Users can seamlessly take turns with friends, enjoying a classic game of strategy in a straightforward and accessible format.",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "css",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "js",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: TicTacToe,
+      source_code_link: "https://github.com/AdityaRastogi18/Tic-tac-toe",
     },
     {
       name: "Trip Guide",

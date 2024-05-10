@@ -19,14 +19,48 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
-    const {name, value} = e.target
-    setForm({...form, [name]: value})
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("form data", form)
+    console.log(import.meta.env.VITE_Service_id);
+    setLoading(true);
+    emailjs
+      .send(
+        import.meta.env.VITE_Service_id,
+        import.meta.env.VITE_Template_id,
+        {
+          from_name: form.name,
+          to_name: "Aditya",
+          from_email: form.email,
+          to_email: "adityarastogi1801@gmail.com",
+          message: form.message,
+        },
+        import.meta.env.VITE_Public_key,
+      )
+      .then(() => {
+        setLoading(false);
+        alert("Thank you. I will get back to you as soon as possible.");
+        setForm(
+          {
+            email: "",
+            name: "",
+            message: "",
+          },
+          (error) => {
+            setLoading(false);
+            console.log(error);
+            alert("Something went wrong. Please try again.");
+          }
+        );
+      });
   };
+
+  // Service Id service_ef1vy3j
+  // email template template_6l5mtnk
+  // public key DkHa4TrNOM6ntCAYq
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
@@ -84,7 +118,10 @@ const Contact = () => {
           </button>
         </form>
       </motion.div>
-      <motion.div variants={slideIn("right", "tween", 0.2, 1)} className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]">
+      <motion.div
+        variants={slideIn("right", "tween", 0.2, 1)}
+        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+      >
         <EarthCanvas />
       </motion.div>
     </div>
