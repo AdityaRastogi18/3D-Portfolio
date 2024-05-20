@@ -25,7 +25,8 @@ import {
     threejs,
     btp,
     Qkart,
-    TicTacToe
+    TicTacToe,
+    SimpleScribbles
   } from "../assets";
   
   export const navLinks = [
@@ -180,26 +181,26 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
+        "Aditya's frontend skills perfectly complemented our backend work, leading to a seamless and effective collaboration.",
+      name: "Dhanush C.",
+      designation: "Senior Software Engineer",
+      company: "BeingTheParent",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+        "Aditya consistently demonstrates a keen eye for detail and a deep understanding of user-centric design principles, elevating our projects with thoughtful and intuitive interfaces.",
+      name: "Chirag Jain",
+      designation: "Senior UI/UX Designer",
+      company: "BeingTheParent",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
+        "Working with Aditya was an absolute pleasure! Their expertise in translating complex ideas into engaging user experiences truly sets them apart in the field.",
+      name: "Manav Dudhoria",
+      designation: "Freelance Marketer",
+      company: "",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
@@ -245,27 +246,23 @@ import {
         },
       ],
       image: TicTacToe,
-      source_code_link: "https://github.com/AdityaRastogi18/Tic-tac-toe",
+      source_code_link: "https://github.com/AdityaRastogi18/SimpleScribbles",
     },
     {
-      name: "Trip Guide",
+      name: "Simple Scribbles",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A personal blogging website built with Next.js offers a dynamic platform for an individual to share their thoughts, experiences, and expertise through engaging content. With Next.js's efficient server-side rendering.",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "tailwind css",
           color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
+        }
       ],
-      image: tripguide,
+      image: SimpleScribbles,
       source_code_link: "https://github.com/",
     },
   ];

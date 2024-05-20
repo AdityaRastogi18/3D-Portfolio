@@ -32,6 +32,7 @@ import Qkart from "./Qkart.png";
 import TicTacToe from "./tic-tac-toe.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import SimpleScribbles from "./SimpleScribbles.png"
 
 import CV from "./CV.pdf"
 
@@ -67,5 +68,6 @@ export {
   btp,
   Qkart,
   TicTacToe,
-  CV
+  CV,
+  SimpleScribbles
 };

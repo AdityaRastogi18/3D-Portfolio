@@ -17,7 +17,7 @@ const ProjectCard = ({
   return (
     <motion.div
       variants={fadeIn("up", "spring", 0.5 * index, 0.75)}
-      // className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
+      className="h-full"
     >
       <Tilt
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
@@ -77,7 +77,7 @@ const Works = () => {
           and manage projects effectively.
         </motion.p>
       </div>
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-20 flex flex-wrap gap-7 h-full">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
