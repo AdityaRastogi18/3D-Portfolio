@@ -10,6 +10,8 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
+import InfiniteScroll from "./components/InfiniteScroll";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -17,17 +19,19 @@ const App = () => {
       <div className="relative z-0 bg-primary">
         {/* <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
         </div> */}
-          <Navbar />
-          <Hero />
+        <Navbar />
+        <Hero />
         <About />
         <Experience />
-        <Tech />
+        <InfiniteScroll />
+        {/* <Tech /> */}
         <Works />
         <Feedbacks />
-          <StarsCanvas />
+        <StarsCanvas />
         <div className="relative z-0">
           <Contact />
         </div>
+        <Footer />
       </div>
     </BrowserRouter>
   );
