@@ -2,7 +2,6 @@ import React from 'react'
 import { Tilt } from 'react-tilt'
 import { motion } from 'framer-motion'
 import { styles } from '../styles'
-import { services } from '../constants'
 import { fadeIn, textVariant } from "../utils/motion"
 import { SectionWrapper } from "../hoc"
 
@@ -31,7 +30,7 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        I'm a skilled software engineer with experience in Javascript and Typescript, and experties in frameworks like React, Next, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions the solve real-world problems. Let's work together to bring your ideas to life!
+        I'm a skilled software engineer with experience in Javascript and Typescript, and experties in frameworks like React, Next, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, scalable, and user-friendly solutions to solve real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
       {/* <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

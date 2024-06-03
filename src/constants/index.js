@@ -14,14 +14,6 @@ import {
   mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   btp,
   Qkart,
@@ -197,7 +189,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "Working with Aditya was an absolute pleasure! Their expertise in translating complex ideas into engaging user experiences truly sets them apart in the field.",
+      "Working with Aditya was an absolute pleasure! His expertise in translating complex ideas into engaging user experiences truly sets them apart in the field.",
     name: "Manav Dudhoria",
     designation: "Freelance Marketer",
     company: "",
@@ -216,7 +208,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "hooks",
         color: "green-text-gradient",
       },
       {
@@ -227,6 +219,7 @@ const projects = [
     image: Qkart,
     source_code_link:
       "https://github.com/AdityaRastogi18/Qkart-Frontend/tree/main/shubhrastogi14-ME_QKART_FRONTEND_V2-master",
+    live_link: "https://qkart-ar.netlify.app/"
   },
   {
     name: "Tic Tac Toe Game",
@@ -248,6 +241,7 @@ const projects = [
     ],
     image: TicTacToe,
     source_code_link: "https://github.com/AdityaRastogi18/SimpleScribbles",
+    live_link: ""
   },
   {
     name: "Simple Scribbles",
@@ -265,6 +259,7 @@ const projects = [
     ],
     image: SimpleScribbles,
     source_code_link: "https://github.com/",
+    live_link: ""
   },
 ];
 

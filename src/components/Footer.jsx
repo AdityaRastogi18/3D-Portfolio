@@ -11,7 +11,7 @@ import { styles } from "../styles";
 const Footer = () => {
   return (
     <footer
-      className={`${styles.paddingX} max-w-7xl mx-auto relative z-0 bottom-0 py-6 flex flex-col-reverse md:flex-row gap-4 justify-between items-center`}
+      className={`w-full bg-primary mx-auto px-10 relative z-0 bottom-0 py-6 flex flex-col-reverse md:flex-row gap-4 justify-between items-center`}
     >
       <span className="flex items-center gap-1">
         <FontAwesomeIcon className="text-lg" icon={faCopyright} />
@@ -20,7 +20,7 @@ const Footer = () => {
       <div className="flex gap-5">
         <a href="https://github.com/AdityaRastogi18" target="_blank">
           <FontAwesomeIcon
-            className="text-xl md:text-2xl hover:text-slate-500 dark:hover:text-teal-300"
+            className="text-xl md:text-2xl hover:text-slate-500 dark:hover:text-teal-300 hover:cursor-pointer"
             icon={faGithub}
           />
         </a>
@@ -29,19 +29,19 @@ const Footer = () => {
           target="_blank"
         >
           <FontAwesomeIcon
-            className="text-xl md:text-2xl hover:text-slate-500 dark:hover:text-teal-300"
+            className="text-xl md:text-2xl hover:text-slate-500 dark:hover:text-teal-300 hover:cursor-pointer"
             icon={faLinkedin}
           />
         </a>
         <a href="https://www.instagram.com/adi__880/" target="_blank">
           <FontAwesomeIcon
-            className="text-xl md:text-2xl hover:text-slate-500 dark:hover:text-teal-300"
+            className="text-xl md:text-2xl hover:text-slate-500 dark:hover:text-teal-300 hover:cursor-pointer"
             icon={faInstagram}
           />
         </a>
         <a href="https://x.com/adityarastogi88" target="_blank">
           <FontAwesomeIcon
-            className="text-xl md:text-2xl hover:text-slate-500 dark:hover:text-teal-300"
+            className="text-xl md:text-2xl hover:text-slate-500 dark:hover:text-teal-300 hover:cursor-pointer"
             icon={faXTwitter}
           />
         </a>

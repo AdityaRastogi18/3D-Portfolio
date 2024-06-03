@@ -2,8 +2,10 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import { ReactTyped } from "react-typed";
+import { useState } from "react";
 
 const Hero = () => {
+  const [loop, setLoop] = useState(false)
   return (
     <section className="relative w-full h-screen mx-auto">
       <div
@@ -19,7 +21,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I am a {" "}
-          <ReactTyped
+          <ReactTyped className="text-[#915eff]"
             strings={[
               "web developer",
               "web designer",
@@ -28,7 +30,8 @@ const Hero = () => {
             ]}
             typeSpeed={30}
             backSpeed={40}
-            // loop
+            loopCount={3}
+            loop
           />
           </p>
         </div>
