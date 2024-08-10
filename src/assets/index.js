@@ -32,9 +32,10 @@ import Qkart from "./Qkart.png";
 import TicTacToe from "./tic-tac-toe.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import SimpleScribbles from "./SimpleScribbles.png"
+import SimpleScribbles from "./SimpleScribbles.png";
+import Tailwebs from "./Tailwebs.png";
 
-import CV from "./CV.pdf"
+import CV from "./CV.pdf";
 
 export {
   logo,
@@ -69,5 +70,6 @@ export {
   Qkart,
   TicTacToe,
   CV,
-  SimpleScribbles
+  SimpleScribbles,
+  Tailwebs,
 };

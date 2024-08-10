@@ -19,6 +19,7 @@ import {
   Qkart,
   TicTacToe,
   SimpleScribbles,
+  Tailwebs,
 } from "../assets";
 
 export const navLinks = [
@@ -204,7 +205,7 @@ const projects = [
       "Web-based platform that allows users to search, browse, and add products to cart from various providers, providing a convenient and efficient shopping experience.",
     tags: [
       {
-        name: "react",
+        name: "react.js",
         color: "blue-text-gradient",
       },
       {
@@ -219,29 +220,33 @@ const projects = [
     image: Qkart,
     source_code_link:
       "https://github.com/AdityaRastogi18/Qkart-Frontend/tree/main/shubhrastogi14-ME_QKART_FRONTEND_V2-master",
-    live_link: "https://qkart-ar.netlify.app/"
+    live_link: "https://qkart-ar.netlify.app/",
   },
   {
-    name: "Tic Tac Toe Game",
+    name: "Teachers Portal",
     description:
-      "A web-based Tic Tac Toe game designed for simple, pass-and-play fun. Users can seamlessly take turns with friends, enjoying a classic game of strategy in a straightforward and accessible format.",
+      "A dynamic student management system with features including a login screen, dynamic search, student subject management, and secure authentication using Passport.js JWT service.",
     tags: [
       {
-        name: "html",
+        name: "react.js",
         color: "blue-text-gradient",
       },
       {
-        name: "css",
-        color: "green-text-gradient",
+        name: "tailwind css",
+        color: "cyan-text-gradient",
       },
       {
-        name: "js",
+        name: "express.js",
         color: "pink-text-gradient",
       },
+      {
+        name: "mongoDB",
+        color: "green-text-gradient",
+      },
     ],
-    image: TicTacToe,
-    source_code_link: "https://github.com/AdityaRastogi18/SimpleScribbles",
-    live_link: ""
+    image: Tailwebs,
+    source_code_link: "https://github.com/AdityaRastogi18/tailwebs-fronted",
+    live_link: "https://tailwebs-fronted.vercel.app/login",
   },
   {
     name: "Simple Scribbles",
@@ -254,12 +259,12 @@ const projects = [
       },
       {
         name: "tailwind css",
-        color: "green-text-gradient",
+        color: "cyan-text-gradient",
       },
     ],
     image: SimpleScribbles,
     source_code_link: "https://github.com/",
-    live_link: ""
+    live_link: "https://simple-scribbles.vercel.app/",
   },
 ];
 
@@ -279,7 +284,7 @@ const tags = [
   "Bootstrap",
   "Node",
   "MySql",
-  "Github"
+  "Github",
 ];
 
 export { services, technologies, experiences, testimonials, projects, tags };

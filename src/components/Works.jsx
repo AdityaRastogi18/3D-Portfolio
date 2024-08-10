@@ -5,6 +5,8 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 const ProjectCard = ({
   index,
@@ -13,6 +15,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live_link,
 }) => {
   return (
     <motion.div
@@ -43,7 +46,12 @@ const ProjectCard = ({
           </div>
         </div>
         <div className="mt-5">
-          <h3 className="text-white font-bold text-[24px]">{name}</h3>
+          <h3
+            className="text-white font-bold text-[24px] cursor-pointer"
+            onClick={() => window.open(live_link, "_blank")}
+          >
+            {name} <FontAwesomeIcon icon={faLink} />
+          </h3>
           <p className="mt-2 text-secondary text-[14px]">{description}</p>
           <div className="mt-4 flex flex-wrap gap-2">
             {tags.map((tag) => (
