@@ -123,12 +123,6 @@ const experiences = [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      // "⁠Implemented dynamic data visualization in Admin Portal using React Recharts, reducing decision-making time by 40%.",
-      // "Engineered robust access controls with role-based system in Admin Portal using Bootstrap and React.",
-      // "⁠Streamlined content creation in Admin Portal, enhancing operational efficiencies and data governance.",
-      // "⁠Deployed Single Sign-On (SSO) solution across sub-brands, integrating Apple and Google Sign-In, increasing user retention by 15% and conversion rates by 25%.",
-      // "Led frontend development of AdTech platform with Ant Design, React CSV, and ApexCharts, boosting advertising revenue.",
-      // "⁠Implemented Context APIs for advanced state management in AdTech platform, optimizing user experience and operational efficiency.",
     ],
   },
   {
