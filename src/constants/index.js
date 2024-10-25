@@ -20,6 +20,7 @@ import {
   TicTacToe,
   SimpleScribbles,
   Tailwebs,
+  OnelabLogo,
 } from "../assets";
 
 export const navLinks = [
@@ -130,19 +131,20 @@ const experiences = [
       // "⁠Implemented Context APIs for advanced state management in AdTech platform, optimizing user experience and operational efficiency.",
     ],
   },
-  // {
-  //   title: "React Native Developer",
-  //   company_name: "Tesla",
-  //   icon: tesla,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2021 - Feb 2022",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+  {
+    title: "SDE - 1",
+    company_name: "Onelab Ventures",
+    icon: OnelabLogo,
+    iconBg: "#E6DEDD",
+    date: "Sept 2024 - Present",
+    points: [
+      "Design and maintain scalable web applications using the MERN Stack, integrating cloud services like AWS Amplify and EC2 for deployment.",
+      "Collaborate closely with clients and cross-functional teams (designers, product managers, and developers) to ensure product alignment and high-quality delivery.",
+      "Build and manage RESTful APIs for seamless client-server communication and optimized application performance.",
+      "Ensure responsive design, cross-browser compatibility, and incorporate DevOps practices with Docker for efficient deployment workflows.",
+      "Conduct code reviews, maintain clean code, and troubleshoot for optimal application performance and reliability.",
+    ],
+  },
   // {
   //   title: "Web Developer",
   //   company_name: "Shopify",
