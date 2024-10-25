@@ -34,7 +34,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import SimpleScribbles from "./SimpleScribbles.png";
 import Tailwebs from "./Tailwebs.png";
-import OnelabLogo from "./company/OnelabLogo.jpeg";
+import OnelabLogo from "./company/onelabLogo.jpeg";
 import CV from "./CV.pdf";
 
 export {
