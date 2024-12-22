@@ -21,6 +21,7 @@ import {
   SimpleScribbles,
   Tailwebs,
   OnelabLogo,
+  aws,
 } from "../assets";
 
 export const navLinks = [
@@ -106,6 +107,10 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
+  {
+    name: "AWS",
+    icon: aws,
+  },
   // {
   //   name: "docker",
   //   icon: docker,
@@ -188,7 +193,7 @@ const testimonials = [
     testimonial:
       "Working with Aditya was an absolute pleasure! His expertise in translating complex ideas into engaging user experiences truly sets them apart in the field.",
     name: "Manav Dudhoria",
-    designation: "Freelance Marketer",
+    designation: "CEO at Outbox",
     company: "",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
@@ -273,14 +278,21 @@ const tags = [
   "React",
   "Next.js",
   "UI/UX",
-  "animation",
+  "Animation",
   "Three.js",
-  "webdev",
+  "Webdev",
   "GIT",
   "Bootstrap",
   "Node",
   "MySql",
   "Github",
+  "AWS",
+  // "S3 Bucket",
+  // "Cloud Watch",
+  // "EC2 Instance",
+  "Godaddy",
+  "Hostinger",
+  // "Breach Management",
 ];
 
 export { services, technologies, experiences, testimonials, projects, tags };

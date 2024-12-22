@@ -36,6 +36,7 @@ import SimpleScribbles from "./SimpleScribbles.png";
 import Tailwebs from "./Tailwebs.png";
 import OnelabLogo from "./company/onelabLogo.jpeg";
 import CV from "./CV.pdf";
+import aws from "./tech/aws.png";
 
 export {
   logo,
@@ -73,4 +74,5 @@ export {
   SimpleScribbles,
   Tailwebs,
   OnelabLogo,
+  aws,
 };
