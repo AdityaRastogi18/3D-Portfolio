@@ -119,18 +119,6 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Engineer",
-    company_name: "Being The Parent",
-    icon: btp,
-    iconBg: "#383E56",
-    date: "May 2023 - May 2024",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-    ],
-  },
-  {
     title: "SDE - 1",
     company_name: "Onelab Ventures",
     icon: OnelabLogo,
@@ -144,6 +132,19 @@ const experiences = [
       "Conduct code reviews, maintain clean code, and troubleshoot for optimal application performance and reliability.",
     ],
   },
+  {
+    title: "Software Engineer",
+    company_name: "Being The Parent",
+    icon: btp,
+    iconBg: "#383E56",
+    date: "May 2023 - May 2024",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+    ],
+  },
+
   // {
   //   title: "Web Developer",
   //   company_name: "Shopify",
