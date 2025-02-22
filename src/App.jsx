@@ -12,6 +12,7 @@ import {
 import InfiniteScroll from "./components/InfiniteScroll";
 import Footer from "./components/Footer";
 import { useEffect } from "react";
+import { initializeAnalytics, logPageView } from "../analytics";
 
 const App = () => {
   useEffect(() => {
