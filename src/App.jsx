@@ -11,8 +11,13 @@ import {
 } from "./components";
 import InfiniteScroll from "./components/InfiniteScroll";
 import Footer from "./components/Footer";
+import { useEffect } from "react";
 
 const App = () => {
+  useEffect(() => {
+    initializeAnalytics();
+    logPageView();
+  }, []);
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
